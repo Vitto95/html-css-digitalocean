@@ -1,0 +1,51 @@
+/* GLOBALI */
+
+.vg-p-vert-60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* /GLOBALI */
+
+/* HEADER */
+
+.vg-header-wrapper {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background-color: salmon;
+}
+
+.vg-header-wrapper img {
+  width: 160px;
+}
+
+.vg-header-wrapper ul {
+  display: inline-block;
+}
+
+.vg-header-wrapper ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* /HEADER */
+
+/* JUMBOTRON */
+
+.vg-jumbotron {
+  width: 100%;
+  height: 500px;
+  background-color: lightskyblue;
+}
+
+/* /JUMBOTRON */
+
+/* CUSTOMERS (LOGO) */
+.vg-customers-logo {
+  width: 100%;
+  height: 275px;
+  background-color: lightgray;
+}
+
+/* /CUSTOMERS (LOGO) */
