@@ -55,6 +55,37 @@
 #vg-deploy-and-scale {
   width: 100%;
   height: 600px;
+  background-color: lightslategray;
 }
 
 /* /DEPLOY AND SCALE */
+
+/* DESIGNED FOR DEVELOPERS */
+
+#vg-designed-for-developers {
+  width: 100%;
+  height: 600px;
+  background-color: lightpink;
+}
+
+/* /DESIGNED FOR DEVELOPERS */
+
+/* FEATURES FOR DEVELOPERS */
+
+#vg-features-for-developers {
+  width: 100%;
+  height: 600px;
+  background-color: lemonchiffon;
+}
+
+/* /FEATURES FOR DEVELOPERS */
+
+/* REGIONS */
+
+#regions {
+  width: 100%;
+  height: 420px;
+  background-color: lightsalmon;
+}
+
+/* /REGIONS */
