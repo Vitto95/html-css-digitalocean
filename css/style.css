@@ -82,10 +82,20 @@
 
 /* REGIONS */
 
-#regions {
+#vg-regions {
   width: 100%;
   height: 420px;
   background-color: lightsalmon;
 }
 
 /* /REGIONS */
+
+/* CUSTOMERS REVIEW */
+
+#vg-customers-review {
+  width: 100%;
+  height: 600px;
+  background-color: palegreen;
+}
+
+/* /CUSTOMERS REVIEW */
