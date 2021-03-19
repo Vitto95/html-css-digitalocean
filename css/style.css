@@ -99,3 +99,23 @@
 }
 
 /* /CUSTOMERS REVIEW */
+
+/* GET STARTED */
+
+#vg-get-started {
+  width: 100%;
+  height: 250px;
+  background-color: powderblue;
+}
+
+/* /GET STARTED */
+
+/* FOOTER */
+
+.vg-footer-wrapper {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(12, 239, 69, 0.534);
+}
+
+/* /FOOTER */
