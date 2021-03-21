@@ -37,16 +37,43 @@
 
 /* JUMBOTRON */
 
+/* general jumbotron settings */
+
 #vg-jumbotron {
   width: 100%;
   min-height: 490px;
-  background-color: lightskyblue;
+  background-color: #004aff;
+  background-image: url(../img/bg-banner-home.jpg);
+  background-size: 134%;
+  background-position: -221px -7px;
 }
+
+/* /general jumbotron settings */
+
+/* box left jumbotron */
+
+#vg-jumbotron .vg-box-left-jumbotron h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+#vg-jumbotron .vg-box-left-jumbotron p {
+  color: white;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* /box left jumbotron */
+
+/* box right jumbotron */
 
 #vg-jumbotron .vg-box-right-jumbotron {
   height: 100%;
   background-color: white;
   border-radius: 10px;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 
 #vg-jumbotron .vg-box-right-jumbotron .vg-form-right-jumbotron {
@@ -58,6 +85,8 @@
 #vg-jumbotron .vg-box-right-jumbotron .vg-form-right-jumbotron button {
   width: 100%;
 }
+
+/* /box right jumbotron */
 
 /* /JUMBOTRON */
 
