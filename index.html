@@ -22,22 +22,37 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- PERFEZIONAMENTI: CAMBIARE DIV DEL MAIN IN SECTION! -->
     <!-- SISTEMARE RESPONSIVE: SM DEVE AVERE LE STESSE CARATTERISTICHE DI MD -->
+    <!-- AGGIUNGERE TUTTI I CARATTERI SPECIALI -->
 
     <header id="vg-header-wrapper">
       <div class="container">
         <div class="row">
           <div class="col-xs-6 col-lg-2">
-            <span>IMG</span>
+            <img src="img/logo.png" alt="" />
           </div>
-          <div class="col-xs-5 col-lg-5 hidden-xs hidden-sm hidden-md">
-            <ul class="vg-center-links text-left">
-              <li>Products</li>
+          <div
+            class="col-xs-5 col-lg-5 hidden-xs hidden-sm hidden-md text-right"
+          >
+            <ul class="vg-center-links">
+              <li>
+                Products
+                <span class="glyphicon glyphicon-menu-down"></span>
+              </li>
               <li>Customers</li>
-              <li>Community</li>
+              <li>
+                Community
+                <span class="glyphicon glyphicon-menu-down"></span>
+              </li>
               <li>Pricing</li>
             </ul>
           </div>
@@ -45,8 +60,12 @@
             <span class="hidden-lg">Hamburger Menu</span>
             <ul class="right-links hidden-xs hidden-sm hidden-md">
               <li>Docs</li>
-              <li>Support</li>
+              <li>
+                Support
+                <span class="glyphicon glyphicon-menu-down"></span>
+              </li>
               <li>Login</li>
+              <li>Sign Up</li>
             </ul>
           </div>
         </div>
@@ -57,11 +76,40 @@
     <main>
       <!-- JUMBOTRON -->
 
-      <div id="vg-jumbotron">
+      <div id="vg-jumbotron" class="vg-pad-vert-60">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-lg-7">Colonna 1</div>
-            <div class="col-xs-12 col-lg-5">Colonna 2</div>
+            <div class="col-xs-12 col-lg-7">
+              <h1>The simplest cloud platform for developers and teams</h1>
+              <p>
+                Deploy, manage, and scale cloud applications faster and more
+                efficiently on DigitalOcean. We make managing infrastructure
+                easy for teams and businesses, whether you're running one
+                virtual machine or ten thousand.
+              </p>
+            </div>
+            <div class="col-xs-12 col-lg-5">
+              <div class="vg-box-right-jumbotron">
+                <h3 class="text-center">Deploy your app in seconds.</h3>
+                <h3 class="text-center">Get started now.</h3>
+                <div class="vg-form-right-jumbotron">
+                  <form action="">
+                    <input type="email" name="" id="" placeholder="Email" />
+                    <input
+                      type="password"
+                      name=""
+                      id=""
+                      placeholder="Password"
+                    />
+                    <button>Create your account</button>
+                    <button>Sign up with Google</button>
+                  </form>
+                </div>
+                <p class="text-center">
+                  By signing up you agree to the Terms of Service
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

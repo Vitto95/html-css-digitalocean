@@ -1,6 +1,10 @@
 /* GLOBALI */
 
-.vg-p-vert-60 {
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.vg-pad-vert-60 {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -35,8 +39,24 @@
 
 #vg-jumbotron {
   width: 100%;
-  height: 500px;
+  min-height: 490px;
   background-color: lightskyblue;
+}
+
+#vg-jumbotron .vg-box-right-jumbotron {
+  height: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#vg-jumbotron .vg-box-right-jumbotron .vg-form-right-jumbotron {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#vg-jumbotron .vg-box-right-jumbotron .vg-form-right-jumbotron input,
+#vg-jumbotron .vg-box-right-jumbotron .vg-form-right-jumbotron button {
+  width: 100%;
 }
 
 /* /JUMBOTRON */
