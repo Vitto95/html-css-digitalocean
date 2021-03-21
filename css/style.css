@@ -1,4 +1,4 @@
-/* GLOBALI */
+/* GLOBAL */
 
 * {
   font-family: "Montserrat", sans-serif;
@@ -9,7 +9,11 @@
   padding-bottom: 60px;
 }
 
-/* /GLOBALI */
+.vg-text-blue {
+  color: blue;
+}
+
+/* /GLOBAL */
 
 /* HEADER */
 
@@ -76,6 +80,10 @@
   padding-bottom: 30px;
 }
 
+#vg-jumbotron .vg-box-right-jumbotron h3 {
+  font-weight: 600;
+}
+
 #vg-jumbotron .vg-box-right-jumbotron .vg-form-right-jumbotron {
   width: 90%;
   margin: 0 auto;
@@ -93,8 +101,12 @@
 /* CUSTOMERS (LOGO) */
 #vg-customers-logo {
   width: 100%;
-  height: 275px;
-  background-color: lightgray;
+  min-height: 275px;
+  background-color: #f3f5f9;
+}
+
+.vg-box-logos > img {
+  width: 100%;
 }
 
 /* /CUSTOMERS (LOGO) */
@@ -103,8 +115,21 @@
 
 #vg-deploy-and-scale {
   width: 100%;
-  height: 600px;
+  min-height: 600px;
   background-color: lightslategray;
+}
+
+.vg-list-deploy-and-scale {
+  border-left: 1px solid white;
+}
+
+.vg-list-deploy-and-scale ul {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+.vg-box-deploy-and-scale {
+  min-height: 200px;
 }
 
 /* /DEPLOY AND SCALE */
