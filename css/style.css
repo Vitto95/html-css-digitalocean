@@ -209,21 +209,53 @@ a:hover {
 #vg-deploy-and-scale {
   width: 100%;
   min-height: 600px;
-  background-color: lightslategray;
   padding-top: 80px;
+  padding-bottom: 75px;
+}
+
+#vg-deploy-and-scale h2 {
+  font-size: 31px;
+}
+
+#vg-deploy-and-scale p.vg-subtitle-deploy {
+  font-size: 22.8px;
+  margin-bottom: 75px;
 }
 
 .vg-list-deploy-and-scale {
-  border-left: 1px solid white;
+  border-left: 1px solid lightgray;
+  padding-left: 8px;
 }
 
 .vg-list-deploy-and-scale ul {
   list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 10px;
+}
+
+.vg-list-deploy-and-scale ul li {
+  color: #bfc4cf;
+  font-size: 22px;
+}
+
+.vg-list-deploy-and-scale ul li:nth-child(2),
+.vg-list-deploy-and-scale ul li:nth-child(3),
+.vg-list-deploy-and-scale ul li:nth-child(4),
+.vg-list-deploy-and-scale ul li:nth-child(5) {
+  margin-top: 25px;
 }
 
 .vg-box-deploy-and-scale {
   min-height: 200px;
+}
+
+.vg-box-deploy-and-scale h4 {
+  margin-top: 20px;
+}
+
+.vg-box-deploy-and-scale p {
+  font-size: 15px;
 }
 
 /* /DEPLOY AND SCALE */
