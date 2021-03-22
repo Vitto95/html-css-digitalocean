@@ -31,6 +31,10 @@ a:hover {
   font-weight: 500;
 }
 
+.vg-mar-top-20 {
+  margin-top: 20px;
+}
+
 .vg-pad-vert-60 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -423,7 +427,21 @@ a:hover {
 .vg-footer-wrapper {
   width: 100%;
   min-height: 500px;
-  background-color: rgba(12, 239, 69, 0.534);
+  background-color: #031c4e;
+  color: white;
+  padding-top: 60px;
+}
+
+.vg-footer-wrapper a {
+  color: white;
+}
+
+.vg-footer-wrapper ul li.vg-list-title {
+  margin-top: 20px;
+}
+
+.vg-footer-wrapper ul li {
+  margin-top: 15px;
 }
 
 /* /FOOTER */
