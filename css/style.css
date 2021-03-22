@@ -297,17 +297,20 @@ a:hover {
 }
 
 .vg-custom-circle {
-  color: #006aff;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  content: "";
+  border: 1px solid #006aff;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.vg-custom-box {
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  content: "";
-  border: 1px solid black;
-  border-radius: 50%;
+.vg-custom-circle:hover,
+.vg-custom-circle:active {
+  background-color: #006aff;
 }
+
 /* /DESIGNED FOR DEVELOPERS */
 
 /* FEATURES FOR DEVELOPERS */
