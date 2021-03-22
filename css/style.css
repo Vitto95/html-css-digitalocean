@@ -346,9 +346,13 @@ a:hover {
 
 #vg-regions {
   width: 100%;
-  height: 420px;
+  min-height: 420px;
   background-color: #0040bd;
   color: white;
+}
+
+.vg-wrapper-regions {
+  margin-top: 50px;
 }
 
 /* /REGIONS */
