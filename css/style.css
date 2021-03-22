@@ -8,6 +8,15 @@ ul li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 .w-60 {
   width: 60%;
   margin: auto;
@@ -25,6 +34,13 @@ ul li {
 
 .vg-text-blue {
   color: blue;
+}
+
+.vg-btn {
+  border: 1px solid #004aff;
+  border-radius: 4px;
+  color: #004aff;
+  padding: 6px 12px;
 }
 
 /* /GLOBAL */
@@ -51,7 +67,11 @@ ul li {
 
 #vg-header-wrapper ul li {
   display: inline-block;
+  margin-right: 10px;
   list-style-type: none;
+  font-size: 17px;
+  color: black;
+  cursor: pointer;
 }
 
 /* /HEADER */
