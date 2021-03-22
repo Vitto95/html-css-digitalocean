@@ -251,6 +251,7 @@ a:hover {
 }
 
 .vg-box-deploy-and-scale h4 {
+  font-weight: 700;
   margin-top: 20px;
 }
 
@@ -265,12 +266,36 @@ a:hover {
 #vg-designed-for-developers {
   width: 100%;
   min-height: 600px;
-  background-color: lightpink;
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #f3f5f9;
+}
+
+#vg-designed-for-developers h2 {
+  font-size: 31px;
+}
+
+#vg-designed-for-developers .vg-subtitle-designed {
+  font-size: 22.8px;
+  margin-bottom: 75px;
 }
 
 #vg-designed-for-developers img {
   width: 50%;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 20px;
 }
+
+.vg-custom-angle {
+  font-size: 3.5em;
+}
+
+.vg-figcaption-designed {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 /* /DESIGNED FOR DEVELOPERS */
 
 /* FEATURES FOR DEVELOPERS */
