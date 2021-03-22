@@ -27,6 +27,10 @@ a:hover {
   margin: auto;
 }
 
+.vg-weight-500 {
+  font-weight: 500;
+}
+
 .vg-pad-vert-60 {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -180,11 +184,22 @@ a:hover {
 #vg-customers-logo {
   width: 100%;
   min-height: 275px;
+  padding-top: 40px;
   background-color: #f3f5f9;
+}
+
+#vg-customers-logo h4 {
+  font-size: 16px;
+  color: #7c87a0;
 }
 
 .vg-box-logos > img {
   width: 100%;
+  height: 150px;
+}
+
+#vg-customers-logo a {
+  font-size: 16px;
 }
 
 /* /CUSTOMERS (LOGO) */
@@ -195,6 +210,7 @@ a:hover {
   width: 100%;
   min-height: 600px;
   background-color: lightslategray;
+  padding-top: 80px;
 }
 
 .vg-list-deploy-and-scale {
@@ -274,3 +290,14 @@ a:hover {
 }
 
 /* /FOOTER */
+
+/* MEDIA QUERY CUSTOM */
+
+/* @media all and (max-width: 767px) and (min-width: 480px) {
+  .vg-box-logos > img {
+    width: 100%;
+    min-height: 270px;
+  }
+} */
+
+/* /MEDIA QUERY CUSTOM */
