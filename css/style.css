@@ -296,6 +296,18 @@ a:hover {
   font-weight: 700;
 }
 
+.vg-custom-circle {
+  color: #006aff;
+}
+
+.vg-custom-box {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  content: "";
+  border: 1px solid black;
+  border-radius: 50%;
+}
 /* /DESIGNED FOR DEVELOPERS */
 
 /* FEATURES FOR DEVELOPERS */
