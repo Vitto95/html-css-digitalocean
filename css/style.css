@@ -18,6 +18,8 @@ a:hover {
 }
 
 .vg-title-dark-blue {
+  font-size: 33px;
+  font-weight: 700;
   color: #031c4e;
 }
 
@@ -221,10 +223,6 @@ a:hover {
   padding-bottom: 75px;
 }
 
-#vg-deploy-and-scale h2 {
-  font-size: 31px;
-}
-
 #vg-deploy-and-scale p.vg-subtitle-deploy {
   font-size: 22.8px;
   margin-bottom: 75px;
@@ -279,10 +277,6 @@ a:hover {
   background-color: #f3f5f9;
 }
 
-#vg-designed-for-developers h2 {
-  font-size: 31px;
-}
-
 #vg-designed-for-developers .vg-subtitle-designed {
   font-size: 22.8px;
   margin-bottom: 75px;
@@ -332,8 +326,6 @@ a:hover {
 }
 
 #vg-features-for-developers h2 {
-  font-size: 33px;
-  font-weight: 700;
   margin-bottom: 40px;
 }
 
@@ -480,11 +472,23 @@ a:hover {
   padding-top: 60px;
 }
 
+.vg-copyright-footer {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.vg-social-custom-footer {
+  margin-right: 12px;
+  font-size: 1.7em;
+}
+
 .vg-footer-wrapper a {
   color: white;
 }
 
-.vg-footer-wrapper ul li.vg-list-title {
+.vg-footer-wrapper ul li.vg-list-title-footer {
+  font-size: 20px;
+  font-weight: 700;
   margin-top: 20px;
 }
 
