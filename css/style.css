@@ -526,6 +526,43 @@ a:hover {
 
 /* /FOOTER */
 
+/* NAVBAR WITH SHARK */
+
+.vg-shark-nav {
+  background-color: blue;
+}
+
+.vg-box-msg-shark {
+  position: relative;
+  width: 350px;
+  padding-right: 35px;
+  padding-left: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.vg-box-msg-shark p {
+  font-size: 16.3px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.vg-box-msg-shark:after {
+  position: absolute;
+  display: block;
+  content: "";
+  top: 40px;
+  left: 343px;
+  transform: rotate(45deg);
+  width: 13px;
+  height: 13px;
+  background-color: white;
+}
+
+/* /NAVBAR WITH SHARK */
+
 /* MEDIA QUERY CUSTOM */
 
 @media all and (max-width: 991px) {
