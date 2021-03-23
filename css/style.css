@@ -507,4 +507,9 @@ a:hover {
   }
 }
 
+@media all and (max-width: 991px) and (min-width: 768px) {
+  #vg-deploy-and-scale .vg-box-deploy-and-scale {
+    min-height: 250px;
+  }
+}
 /* /MEDIA QUERY CUSTOM */
