@@ -143,6 +143,7 @@ a:hover {
 }
 
 .vg-box-right-jumbotron .vg-btn-google {
+  font-weight: 700;
   background-image: url(../img/google-icon.png);
   background-size: 5%;
   background-repeat: no-repeat;
@@ -237,7 +238,7 @@ a:hover {
 }
 
 .vg-list-deploy-and-scale {
-  border-left: 1px solid lightgray;
+  border-left: 1px solid rgb(167, 168, 171, 0.8);
   padding-left: 8px;
 }
 
@@ -249,7 +250,7 @@ a:hover {
 }
 
 .vg-list-deploy-and-scale ul li {
-  color: #bfc4cf;
+  color: rgb(167, 168, 171, 0.8);
   font-size: 22px;
 }
 
