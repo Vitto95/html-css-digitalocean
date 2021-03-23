@@ -350,6 +350,7 @@ a:hover {
   width: 100%;
   min-height: 420px;
   padding-top: 80px;
+  padding-bottom: 70px;
   background-color: #0040bd;
   color: white;
 }
@@ -500,11 +501,10 @@ a:hover {
 
 /* MEDIA QUERY CUSTOM */
 
-/* @media all and (max-width: 767px) and (min-width: 480px) {
-  .vg-box-logos > img {
-    width: 100%;
-    min-height: 270px;
+@media all and (max-width: 991px) {
+  #vg-regions .vg-custom-col {
+    margin-top: 40px;
   }
-} */
+}
 
 /* /MEDIA QUERY CUSTOM */
