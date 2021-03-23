@@ -411,6 +411,24 @@ a:hover {
   margin-bottom: 100px;
 }
 
+.vg-col-relative {
+  position: relative;
+}
+
+.vg-angle-position {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.vg-angle-right {
+  left: 77%;
+}
+
+.vg-angle-left {
+  left: 20%;
+}
+
 .vg-box-review {
   display: inline-block;
   width: 50%;
@@ -519,6 +537,24 @@ a:hover {
 @media all and (max-width: 991px) and (min-width: 768px) {
   #vg-deploy-and-scale .vg-box-deploy-and-scale {
     min-height: 250px;
+  }
+
+  #vg-jumbotron .vg-box-left-jumbotron h1 {
+    font-size: 38px;
+  }
+
+  #vg-jumbotron .vg-box-left-jumbotron p {
+    font-size: 23px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  #vg-jumbotron .vg-box-left-jumbotron h1 {
+    font-size: 36px;
+  }
+
+  #vg-jumbotron .vg-box-left-jumbotron p {
+    font-size: 20.5px;
   }
 }
 /* /MEDIA QUERY CUSTOM */
