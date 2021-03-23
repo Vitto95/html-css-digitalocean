@@ -529,7 +529,50 @@ a:hover {
 /* NAVBAR WITH SHARK */
 
 .vg-shark-nav {
-  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: 40px;
+  margin-bottom: 55px;
+}
+
+.vg-box-img-shark {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background-color: #006aff;
+  border-radius: 5px;
+  background-image: url(../img/shark.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vg-box-img-shark .vg-circle-white-custom {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.vg-box-img-shark .vg-circle-white-custom .vg-circle-red-custom {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  color: white;
+  background-color: #ff0001;
+}
+
+.vg-circle-red-custom span {
+  font-size: 12px;
 }
 
 .vg-box-msg-shark {
@@ -594,4 +637,5 @@ a:hover {
     font-size: 20.5px;
   }
 }
+
 /* /MEDIA QUERY CUSTOM */
